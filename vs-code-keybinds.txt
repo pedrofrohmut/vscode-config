@@ -21,7 +21,7 @@
     "command": "explorer.newFolder"
   },
   {
-    "key": "ctrl+e",
+    "key": "ctrl+w ctrl+w",
     "command": "workbench.view.explorer"
   },
   {
