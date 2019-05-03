@@ -5,7 +5,7 @@
     "command": "workbench.action.files.saveAll"
   },
   {
-    "key": "ctrl+shift+w",
+    "key": "ctrl+shift+f4",
     "command": "workbench.action.closeAllEditors"
   },
   {

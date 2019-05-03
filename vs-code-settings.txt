@@ -7,11 +7,12 @@
   "editor.cursorStyle": "line",
   "editor.cursorWidth": 4,
   "editor.formatOnSave": false,
- 
+
+  
   // WORKBENCH
   "workbench.startupEditor": "none",
   "workbench.list.openMode": "doubleClick",
-  "workbench.colorTheme": "Dracula Soft",
+  "workbench.colorTheme": "IntelliJ-ish Darcula", 
   "workbench.activityBar.visible": false,
  
 
@@ -25,21 +26,32 @@
   "editor.suggest.snippetsPreventQuickSuggestions": false,
   "html.suggest.html5": false,
   "editor.snippetSuggestions": "none",
-  "editor.hover.enabled": false,
+  "editor.hover.enabled": true,
 
 
   // TERMINAL
   "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
   "terminal.integrated.fontSize": 18,
   
+
   // Live Server
   "liveServer.settings.donotShowInfoMsg": true,
 
+
   // Live Sass
   "liveSassCompile.settings.generateMap": false,
+  "liveSassCompile.settings.formats": [
+    {
+        "format": "expanded",
+        "extensionName": ".css",
+        "savePath": "/dist/css"
+    }  
+  ],
+
 
   // Points to the PHP executable.
   "php.validate.executablePath": "D:\\xampp\\php\\php.exe",
+
 
   // EMMET
   "emmet.includeLanguages": {
