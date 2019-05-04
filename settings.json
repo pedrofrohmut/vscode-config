@@ -7,6 +7,7 @@
   "editor.cursorStyle": "line",
   "editor.cursorWidth": 4,
   "editor.formatOnSave": false,
+  "editor.lineNumbers": "relative",
 
   
   // WORKBENCH
@@ -64,5 +65,4 @@
   },
   "emmet.triggerExpansionOnTab": true,
   "emmet.showExpandedAbbreviation": "never",
-  "editor.lineNumbers": "relative",
 }
