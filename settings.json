@@ -9,6 +9,11 @@
   "editor.formatOnSave": false,
   "editor.lineNumbers": "relative",
 
+  "editor.rulers": [80, 120],
+  "workbench.colorCustomizations": {
+    "editorRuler.foreground": "#333"
+  },
+
   
   // WORKBENCH
   "workbench.startupEditor": "none",
@@ -66,4 +71,5 @@
   },
   "emmet.triggerExpansionOnTab": true,
   "emmet.showExpandedAbbreviation": "never",
+  "editor.minimap.maxColumn": 80,
 }
