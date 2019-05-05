@@ -45,13 +45,14 @@
 
   // Live Sass
   "liveSassCompile.settings.generateMap": false,
-  "liveSassCompile.settings.formats": [
-    {
-        "format": "expanded",
-        "extensionName": ".css",
-        "savePath": "/dist/css"
-    }  
-  ],
+  // TEMPLATE: for folder settings - do NOT delete
+  // "liveSassCompile.settings.formats": [
+  //   {
+  //       "format": "expanded",
+  //       "extensionName": ".css",
+  //       "savePath": "/dist/css"
+  //   }  
+  // ],
 
 
   // Points to the PHP executable.

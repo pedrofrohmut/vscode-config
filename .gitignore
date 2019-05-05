@@ -1,0 +1,8 @@
+# Ignores everything
+*
+
+# But this files
+!.gitignore
+!settings.json
+!keybindings.json
+
