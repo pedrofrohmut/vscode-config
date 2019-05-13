@@ -1,29 +1,44 @@
 { 
   // EDITOR
-  "window.zoomLevel": 0,
-  "editor.fontSize": 18,
+  "editor.fontSize": 15,
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "Consolas, 'Courier New', monospace",
+  "window.zoomLevel": 1,
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
   "editor.cursorStyle": "line",
   "editor.cursorWidth": 4,
   "editor.formatOnSave": false,
   "editor.lineNumbers": "relative",
+  "editor.minimap.maxColumn": 60,
+  "explorer.sortOrder": "type",
 
+  // EDITOR Ruler
   "editor.rulers": [80, 120],
   "workbench.colorCustomizations": {
     "editorRuler.foreground": "#333"
   },
 
-  
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // JAVA
+  "[java]": {
+    "editor.tabSize": 4
+  },
+
+
   // WORKBENCH
   "workbench.startupEditor": "none",
   "workbench.list.openMode": "doubleClick",
-  "workbench.colorTheme": "IntelliJ-ish Darcula", 
-  "workbench.activityBar.visible": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.editor.enablePreview": false,
-  "window.menuBarVisibility": "default",
-  "workbench.sideBar.location": "left",
+  "window.menuBarVisibility": "toggle",
+  "workbench.statusBar.visible": true,
  
 
   // SUGGESTIONS
@@ -37,6 +52,8 @@
   "html.suggest.html5": false,
   "editor.snippetSuggestions": "none",
   "editor.hover.enabled": true,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.suggestOnTriggerCharacters": false,
 
 
   // TERMINAL
@@ -50,6 +67,7 @@
 
   // Live Sass
   "liveSassCompile.settings.generateMap": false,
+  // "liveSassCompile.settings.showOutputWindow": false,
   // TEMPLATE: for folder settings - do NOT delete
   // "liveSassCompile.settings.formats": [
   //   {
@@ -71,5 +89,15 @@
   },
   "emmet.triggerExpansionOnTab": true,
   "emmet.showExpandedAbbreviation": "never",
-  "editor.minimap.maxColumn": 80,
+  "emmet.showAbbreviationSuggestions": false,
+
+  
+  // TESTE SETTINGS
+  "workbench.settings.editor": "json",
+  "editor.cursorSmoothCaretAnimation": true,
+  "workbench.activityBar.visible": false,
+  "editor.renderWhitespace": "boundary",
+  "workbench.tips.enabled": false,
+  "workbench.statusBar.feedback.visible": false,
+  "workbench.colorTheme": "Material Theme Darker High Contrast",
 }
