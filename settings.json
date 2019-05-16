@@ -99,5 +99,7 @@
   "editor.renderWhitespace": "boundary",
   "workbench.tips.enabled": false,
   "workbench.statusBar.feedback.visible": false,
-  "workbench.colorTheme": "Material Theme Darker High Contrast",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 }
