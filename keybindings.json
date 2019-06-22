@@ -29,19 +29,9 @@
     "command": "-workbench.view.explorer"
   },
   {
-    "key": "ctrl+p",
-    "command": "-extension.vim_ctrl+p",
-    "when": "suggestWidgetVisible && vim.active && vim.use<C-p>"
-  },
-  {
     "key": "tab",
     "command": "-insertSnippet",
     "when": "editorTextFocus && hasSnippetCompletions && !editorTabMovesFocus && !inSnippetMode"
-  },
-  {
-    "key": "tab",
-    "command": "-jumpToNextSnippetPlaceholder",
-    "when": "editorTextFocus && hasNextTabstop && inSnippetMode"
   },
   {
     "key": "shift+tab",
@@ -73,57 +63,8 @@
     "command": "-editor.action.toggleTabFocusMode"
   },
   {
-    "key": "ctrl+b",
-    "command": "-extension.vim_ctrl+b",
-    "when": "editorTextFocus && vim.active && vim.use<C-b> && !inDebugRepl && vim.mode != 'Insert'"
-  },
-  {
-    "key": "ctrl+f",
-    "command": "-extension.vim_ctrl+f",
-    "when": "editorTextFocus && vim.active && vim.use<C-f> && !inDebugRepl && vim.mode != 'Insert'"
-  },
-  {
-    "key": "capslock",
-    "command": "extension.vim_escape",
-    "when": "editorTextFocus && vim.active && !inDebugRepl"
-  },
-  {
-    "key": "escape",
-    "command": "extension.vim_escape",
-    "when": "editorTextFocus && vim.active && !inDebugRepl"
-  },
-  {
-    "key": "ctrl+s",
-    "command": "-workbench.action.files.save"
-  },
-  {
-    "key": "ctrl+alt+down",
-    "command": "-extension.vim_cmd+alt+down",
-    "when": "editorTextFocus && vim.active && !inDebugRepl"
-  },
-  {
-    "key": "ctrl+alt+up",
-    "command": "-extension.vim_cmd+alt+up",
-    "when": "editorTextFocus && vim.active && !inDebugRepl"
-  },
-  {
-    "key": "ctrl+c",
-    "command": "-extension.vim_ctrl+c",
-    "when": "editorTextFocus && vim.active && vim.overrideCtrlC && vim.use<C-c> && !inDebugRepl"
-  },
-  {
-    "key": "ctrl+v",
-    "command": "-extension.vim_ctrl+v",
-    "when": "editorTextFocus && vim.active && vim.use<C-v> && !inDebugRepl"
-  },
-  {
     "key": "ctrl+shift+b",
     "command": "workbench.action.toggleActivityBarVisibility"
-  },
-  {
-    "key": "ctrl+w",
-    "command": "-extension.vim_ctrl+w",
-    "when": "editorTextFocus && vim.active && vim.use<C-w> && !inDebugRepl"
   },
   {
     "key": "ctrl+w",
@@ -152,17 +93,34 @@
     "command": "-workbench.action.closeWindow"
   },
   {
-    "key": "ctrl+d",
-    "command": "-extension.vim_ctrl+d",
-    "when": "editorTextFocus && vim.active && !inDebugRepl"
+    "key": "shift+f11",
+    "command": "workbench.action.toggleCenteredLayout"
   },
   {
-    "key": "ctrl+d",
-    "command": "extension.vim_ctrl+d"
+    "key": "ctrl+f6",
+    "command": "workbench.action.tasks.build"
   },
   {
-    "key": "tab",
-    "command": "-extension.vim_tab",
-    "when": "editorFocus && vim.active && !inDebugRepl && vim.mode != 'Insert'"
+    "key": "ctrl+shift+b",
+    "command": "-workbench.action.tasks.build"
+  },
+  {
+    "key": "ctrl+b",
+    "command": "-extension.vim_ctrl+b",
+    "when": "editorTextFocus && vim.active && vim.use<C-b> && !inDebugRepl && vim.mode != 'Insert'"
+  },
+  {
+    "key": "ctrl+f",
+    "command": "-extension.vim_ctrl+f",
+    "when": "editorTextFocus && vim.active && vim.use<C-f> && !inDebugRepl && vim.mode != 'Insert'"
+  },
+  {
+    "key": "ctrl+o",
+    "command": "-workbench.action.files.openFile"
+  },
+  {
+    "key": "ctrl+o",
+    "command": "-workbench.action.files.openLocalFile",
+    "when": "remoteFileDialogVisible"
   }
 ]
