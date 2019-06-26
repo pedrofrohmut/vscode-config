@@ -18,6 +18,8 @@
   "window.newWindowDimensions": "maximized",
   "workbench.colorTheme": "Dracula",
   "breadcrumbs.enabled": false,
+  "editor.lineNumbers": "relative",
+  "workbench.iconTheme": "material-icon-theme",
 
   // Prettier + ESlint
   "editor.formatOnSave": true,
@@ -74,6 +76,11 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
+  // File Associations
+  "files.associations": {
+    ".sequelizerc": "javascript"
+  },
+
   // WORKBENCH
   "workbench.startupEditor": "none",
   "workbench.list.openMode": "doubleClick",
@@ -88,7 +95,7 @@
   //   "comments": false,
   //   "strings": false
   // },
-  // "editor.parameterHints.enabled": false,
+  "editor.parameterHints.enabled": false,
   // "editor.suggest.snippetsPreventQuickSuggestions": false,
   // "html.suggest.html5": false,
   // "editor.snippetSuggestions": "none",
@@ -98,7 +105,7 @@
 
   // TERMINAL
   "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-  "terminal.integrated.fontSize": 18,
+  "terminal.integrated.fontSize": 14,
 
   // Live Server
   "liveServer.settings.donotShowInfoMsg": true,
@@ -135,6 +142,5 @@
 
   // Visual Studio IntelliCode
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "editor.suggestSelection": "first",
-  "editor.lineNumbers": "relative"
+  "editor.suggestSelection": "first"
 }
