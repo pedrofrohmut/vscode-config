@@ -124,7 +124,7 @@
     "when": "remoteFileDialogVisible"
   },
   {
-    "key": "ctrl+k ctrl+d",
+    "key": "ctrl+k ctrl+f",
     "command": "editor.action.formatDocument",
     "when": "editorHasDocumentFormattingProvider && editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly"
   },
@@ -134,7 +134,17 @@
     "when": "editorHasDocumentFormattingProvider && editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly"
   },
   {
-    "key": "ctrl+alt+oem_2",
+    "key": "ctrl+abnt_c1",
     "command": "vim.showQuickpickCmdLine"
+  },
+  {
+    "key": "ctrl+alt+down",
+    "command": "-extension.vim_cmd+alt+down",
+    "when": "editorTextFocus && vim.active && !inDebugRepl"
+  },
+  {
+    "key": "ctrl+alt+up",
+    "command": "-extension.vim_cmd+alt+up",
+    "when": "editorTextFocus && vim.active && !inDebugRepl"
   }
 ]
