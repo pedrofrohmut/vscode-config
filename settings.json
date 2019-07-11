@@ -28,6 +28,7 @@
   "prettier.endOfLine": "lf",
   "prettier.printWidth": 80,
   "prettier.semi": false,
+  "prettier.bracketSpacing": true,
   "eslint.autoFixOnSave": true,
   "eslint.validate": [
     "javascript",
@@ -131,7 +132,8 @@
     "javascript": "html",
     "typescript": "html",
     "razor": "html",
-    "aspnetcorerazor": "html"
+    "aspnetcorerazor": "html",
+    "reason": "javascriptreact"
   },
   "emmet.triggerExpansionOnTab": true,
   "emmet.showExpandedAbbreviation": "never",
